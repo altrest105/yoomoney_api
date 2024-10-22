@@ -4,7 +4,7 @@
 ---
 
 # Пример программы
-'''python
+```python
 from authorization import Authorize
 from client import Client
 from quickpay import Quickpay
@@ -46,4 +46,4 @@ if history.operations == []:
 for operation in history.operations:
     if operation.status == 'success':
         print('Оплата найдена!')
-'''
+```
